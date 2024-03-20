@@ -12,6 +12,7 @@ const Header = () => {
     <Link to='/contract'> Contract  </Link>
     <Link to='/Users'> users  </Link>
     <Link to='/about'> about  </Link>
+    <Link to='/post'> Post</Link>
   </nav>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle">
@@ -26,7 +27,7 @@ const Header = () => {
   </div>
 </div>
 {/* Hero */}
-<div className="hero min-h-screen bg-base-200">
+<div className="hero h-96 bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
     <div>
